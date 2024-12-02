@@ -1,6 +1,5 @@
 import streamlit as st
 import tensorflow as tf
-from imutils.video import VideoStream
 import re
 import argparse
 import facenet
