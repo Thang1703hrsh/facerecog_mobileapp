@@ -1,0 +1,20 @@
+../Dataset/FaceData/processed\Tran_Thang\z6071092746924_3cf1e7d720af92770598648f96e8e24b.png 455 515 1450 1833
+../Dataset/FaceData/processed\Tran_Thang\z6071092766191_19ad3fd3a45fac24c6a295e0a467b680.png 374 752 1409 2161
+../Dataset/FaceData/processed\Tran_Thang\z6071092771527_ad0e879614d1c4667e9ce384a4629016.png 631 658 1466 1741
+../Dataset/FaceData/processed\Tran_Thang\z6071092794260_c458c24f862b5d6253259c77bf572e01.png 593 662 1436 2023
+../Dataset/FaceData/processed\Tran_Thang\z6071092886198_6a89abb23b8d5f1a0075102ae5d6b367.png 347 776 1237 2046
+../Dataset/FaceData/processed\Tran_Thang\z6071092891896_a63a8cb4a7c9437a3523550191438123.png 367 717 1476 2213
+../Dataset/FaceData/processed\Tran_Thang\z6071092898011_895cb208705aef20de3ea25562c7c4e6.png 691 599 1520 1767
+../Dataset/FaceData/processed\Tran_Thang\z6071092900858_6f0f00d5a57f8b382238184d3810cd5b.png 351 662 1235 1808
+../Dataset/FaceData/processed\Tran_Thang\z6071092907476_59cdcc9828eb1d7af0d92e7ffc540b70.png 314 922 1316 2258
+../Dataset/FaceData/processed\Tran_Thang\z6071092916120_f65407b1b379ee341520a4ce5f29fc9e.png 347 959 1400 2327
+../Dataset/FaceData/processed\Tran_Thang\z6071092921743_a1c10ef16f82113638b0db616015326a.png 462 906 1446 2282
+../Dataset/FaceData/processed\Tran_Thang\z6071092923341_5242f7934cb7285f43588ff09d5b1e82.png 350 976 1349 2303
+../Dataset/FaceData/processed\Tran_Thang\z6071092935472_93c04b79724b2b09baaee435455f71ba.png 616 682 1519 1958
+../Dataset/FaceData/processed\Tran_Thang\z6071092945940_cb20db5e8a984e483a13c8194d170e8b.png 580 779 1563 2137
+../Dataset/FaceData/processed\Tran_Thang\z6071092946928_8ebbad0b0fd52e7fb12a4bf2c8d3404d.png 556 652 1514 1854
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0001.png
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0002.png
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0003.png
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0004.png
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0005.png

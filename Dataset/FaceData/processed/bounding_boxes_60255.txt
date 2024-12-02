@@ -1,0 +1,60 @@
+../Dataset/FaceData/processed\Duu\Du_0002.png 1628 835 2836 2472
+../Dataset/FaceData/processed\Duu\Du_0003.png 1704 600 3051 2104
+../Dataset/FaceData/processed\Duu\Du_0001.png 1545 596 2826 2383
+../Dataset/FaceData/processed\Duu\Du_0004.png 1563 539 3081 2425
+../Dataset/FaceData/processed\Kha_Tu\Kha_Tu_0002.png 192 699 1121 1923
+../Dataset/FaceData/processed\Kha_Tu\Kha_Tu_0010.png 137 523 1106 1788
+../Dataset/FaceData/processed\Kha_Tu\Kha_Tu_0005.png 146 887 1020 1952
+../Dataset/FaceData/processed\Kha_Tu\Kha_Tu_0004.png 154 710 1002 1846
+../Dataset/FaceData/processed\Kha_Tu\Kha_Tu_0003.png 148 439 1130 1777
+../Dataset/FaceData/processed\Kha_Tu\Kha_Tu_0009.png 147 624 1083 1909
+../Dataset/FaceData/processed\Kha_Tu\Kha_Tu_0001.png 38 663 951 1830
+../Dataset/FaceData/processed\Kha_Tu\Kha_Tu_0007.png 182 682 1100 1727
+../Dataset/FaceData/processed\Kha_Tu\Kha_Tu_0006.png 72 532 1210 1992
+../Dataset/FaceData/processed\Kha_Tu\Kha_Tu_0008.png 164 609 1149 1880
+../Dataset/FaceData/processed\Phuong_Thao\Phuong_Thao_0003.png 874 587 2039 1671
+../Dataset/FaceData/processed\Phuong_Thao\Phuong_Thao_0001.png 634 755 1960 1856
+../Dataset/FaceData/processed\Phuong_Thao\Phuong_Thao_0004.png 324 450 1924 1688
+../Dataset/FaceData/processed\Phuong_Thao\Phuong_Thao_0002.png 768 353 2200 1469
+../Dataset/FaceData/processed\Phuong_Thao\Phuong_Thao_0005.png 622 376 1858 1542
+../Dataset/FaceData/processed\Linh\Linh_0003.png 477 552 1256 1533
+../Dataset/FaceData/processed\Linh\Linh_0002.png 636 507 1382 1494
+../Dataset/FaceData/processed\Linh\Linh_0001.png 523 549 1287 1520
+../Dataset/FaceData/processed\Linh\Linh_0004.png 555 513 1336 1513
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0002.png
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0006.png 471 1069 2180 2316
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0004.png
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0008.png 1033 592 2356 1937
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0007.png 513 0 2455 1880
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0003.png
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0009.png 629 429 2286 1762
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0010.png 1855 2197 1912 2261
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0005.png
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0001.png
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_40_07_Pro.png 419 80 737 482
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_40_02_Pro.png 405 89 741 509
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_39_51_Pro.png 381 137 700 569
+../Dataset/FaceData/processed\Tran_Thang\Tran_Thang_5.png 469 726 1494 1999
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_39_50_Pro.png 424 149 760 592
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_39_55_Pro.png 415 205 738 604
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_40_05_Pro.png 435 92 782 560
+../Dataset/FaceData/processed\Tran_Thang\Tran_Thang_3.png 583 498 1445 1522
+../Dataset/FaceData/processed\Tran_Thang\Tran_Thang_7.png 494 586 1424 1811
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_40_01_Pro.png 385 119 722 597
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_40_00_Pro.png 421 125 791 628
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_40_08_Pro (2).png 525 142 854 572
+../Dataset/FaceData/processed\Tran_Thang\Tran_Thang_2.png 637 559 1521 1771
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_39_52_Pro.png 513 157 807 558
+../Dataset/FaceData/processed\Tran_Thang\Tran_Thang_8.png 638 498 1468 1552
+../Dataset/FaceData/processed\Tran_Thang\Tran_Thang_9.png 563 851 1476 2059
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_39_57_Pro.png 395 118 700 524
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_40_04_Pro.png 459 205 799 630
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_40_08_Pro.png 429 153 788 629
+../Dataset/FaceData/processed\Tran_Thang\Tran_Thang_10.png 772 644 1597 1828
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_40_03_Pro.png 527 99 845 519
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_39_53_Pro.png 443 94 765 475
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_40_06_Pro.png 399 152 696 551
+../Dataset/FaceData/processed\Tran_Thang\Tran_Thang_1.png 509 471 1552 1885
+../Dataset/FaceData/processed\Tran_Thang\Tran_Thang_6.png 649 563 1536 1810
+../Dataset/FaceData/processed\Tran_Thang\Tran_Thang_4.png 475 653 1349 1830
+../Dataset/FaceData/processed\Tran_Thang\WIN_20231209_20_39_56_Pro.png 437 113 758 533

@@ -1,0 +1,13 @@
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0001.png
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0002.png
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0003.png
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0004.png
+../Dataset/FaceData/processed\Quang_Minh\Quang_Minh_0005.png
+../Dataset/FaceData/processed\Tran_Thangggg\Tran_Thang_3.png 584 498 1444 1521
+../Dataset/FaceData/processed\Tran_Thangggg\Tran_Thang_2.png 634 545 1527 1770
+../Dataset/FaceData/processed\Tran_Thangggg\Tran_Thang_8.png 638 498 1469 1554
+../Dataset/FaceData/processed\Tran_Thangggg\Tran_Thang_9.png 560 851 1476 2058
+../Dataset/FaceData/processed\Tran_Thangggg\WIN_20231209_20_39_50_Pro.png 425 149 759 590
+../Dataset/FaceData/processed\Tran_Thangggg\Tran_Thang_10.png 771 644 1597 1827
+../Dataset/FaceData/processed\Tran_Thangggg\Tran_Thang_1.png 508 471 1551 1886
+../Dataset/FaceData/processed\Tran_Thangggg\Tran_Thang_4.png 476 650 1352 1831
