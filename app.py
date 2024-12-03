@@ -82,4 +82,4 @@ class VideoProcessor:
 
 
 # Set up the WebRTC streamer for the video feed
-webrtc_streamer(key="face-recognition", mode=WebRtcMode.SENDRECV, video_processor_factory=VideoProcessor, rtc_configuration=RTCConfiguration({"iceServers": [{"urls": "turn:turn.l.google.com:19302"}]}))
+webrtc_streamer(key="face-recognition", mode=WebRtcMode.SENDRECV, video_processor_factory=VideoProcessor, rtc_configuration=RTCConfiguration({"iceServers": [{"urls": ["stun:stun.xten.com:3478"]}]}))
