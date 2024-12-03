@@ -29,10 +29,11 @@ FACENET_MODEL_PATH = 'Models/20180402-114759.pb'
 with open(CLASSIFIER_PATH, 'rb') as file:
     model, class_names = pickle.load(file)
 
-# Load Feature Extraction Model
+# Load Feature Extraction Model only once
+st.write("Loading FaceNet Model...")
 facenet.load_model(FACENET_MODEL_PATH)
 
-# Initialize TensorFlow session and GPU settings
+# Initialize TensorFlow session and GPU settings only once
 tf.Graph().as_default()
 gpu_options = tf.compat.v1.GPUOptions(per_process_gpu_memory_fraction=0.6)
 sess = tf.compat.v1.Session(config=tf.compat.v1.ConfigProto(gpu_options=gpu_options, log_device_placement=False))
@@ -76,9 +77,7 @@ class VideoProcessor:
                 cv2.putText(img, f"{name} ({best_prob:.2f})", (bb[0], bb[1] - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 255, 255), 2)
 
         # Return the processed frame
-        # return frame
-        return av.VideoFrame.from_ndarray(img , format = "bgr24")
+        return av.VideoFrame.from_ndarray(img, format="bgr24")
 
 # Set up the WebRTC streamer for the video feed
 webrtc_streamer(key="face-recognition", mode=WebRtcMode.SENDRECV, video_processor_factory=VideoProcessor, rtc_configuration=RTCConfiguration({"iceServers": [{"urls": "stun:stun.l.google.com:19302"}]}))
-
