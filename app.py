@@ -80,9 +80,16 @@ class VideoProcessor:
         return av.VideoFrame.from_ndarray(img, format="bgr24")
         st.image(processed_image, caption='Detected Video', channels="BGR", use_column_width=True)
 
+rtc_configuration = {
+    "iceServers": [
+        {"urls": "stun:stun.l.google.com:19302"},
+        {"urls": "stun:stun1.l.google.com:19302"},
+        {"urls": "stun:stun2.l.google.com:19302"},
+        {"urls": "stun:stun.services.mozilla.com"},
+        {"urls": "stun:global.stun.twilio.com:3478"}
+    ]
+}
 
 # Set up the WebRTC streamer for the video feed
 webrtc_streamer(key="face-recognition", mode=WebRtcMode.SENDRECV, video_processor_factory=VideoProcessor, 
-                rtc_configuration={  # Add this line
-        "iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]
-    })
+                rtc_configuration= rtc_configuration)
