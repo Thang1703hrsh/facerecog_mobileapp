@@ -4,7 +4,6 @@ import tensorflow as tf
 import re
 import argparse
 from src import facenet
-import imutils
 import os
 import sys
 import math
