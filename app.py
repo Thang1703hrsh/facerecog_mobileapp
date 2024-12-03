@@ -78,6 +78,8 @@ class VideoProcessor:
 
         # Return the processed frame
         return av.VideoFrame.from_ndarray(img, format="bgr24")
+        st.image(processed_image, caption='Detected Video', channels="BGR", use_column_width=True)
+
 
 # Set up the WebRTC streamer for the video feed
-webrtc_streamer(key="face-recognition", mode=WebRtcMode.SENDRECV, video_processor_factory=VideoProcessor, rtc_configuration=RTCConfiguration({"iceServers": [{"urls": "stun:stun.l.google.com:19302"}]}))
+webrtc_streamer(key="face-recognition", mode=WebRtcMode.SENDRECV, video_processor_factory=VideoProcessor, rtc_configuration=RTCConfiguration({"iceServers": [{"urls": "TURN:TURN.l.google.com:19302"}]}))
