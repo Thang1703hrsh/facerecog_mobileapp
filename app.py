@@ -1,14 +1,15 @@
+from src import *
 import streamlit as st
 import tensorflow as tf
 import re
 import argparse
-import facenet
+from src import facenet
 import imutils
 import os
 import sys
 import math
 import pickle
-import align.detect_face
+from src.align import detect_face
 import numpy as np
 import cv2
 import collections
@@ -19,15 +20,7 @@ from st_pages import Page, show_pages, add_page_title
 import time
 
 st.set_page_config(page_title="Face Recognition App", layout="wide")
-add_page_title()
-
-show_pages(
-    [
-        Page("Homepage.py", "Home", "🏠"),
-        Page("pages/Updating.py", "Updating", "🔄"),
-        Page("pages/Database.py", "Database", "📊"),
-    ]
-)
+st.title("Welcome to facial recognition")
 
 # Sidebar - Settings
 st.sidebar.title("Settings")
@@ -41,8 +34,8 @@ MINSIZE = 20
 THRESHOLD = [0.6, 0.7, 0.7]
 FACTOR = 0.709
 INPUT_IMAGE_SIZE = 160
-CLASSIFIER_PATH = '../Models/facemodel.pkl'
-FACENET_MODEL_PATH = '../Models/20180402-114759.pb'
+CLASSIFIER_PATH = 'Models/facemodel.pkl'
+FACENET_MODEL_PATH = 'Models/20180402-114759.pb'
 detection_time_placeholder = st.sidebar.empty()
 model_name = "Facenet"
 
@@ -63,7 +56,7 @@ images_placeholder = tf.compat.v1.get_default_graph().get_tensor_by_name("input:
 embeddings = tf.compat.v1.get_default_graph().get_tensor_by_name("embeddings:0")
 phase_train_placeholder = tf.compat.v1.get_default_graph().get_tensor_by_name("phase_train:0")
 embedding_size = embeddings.get_shape()[1]
-pnet, rnet, onet = align.detect_face.create_mtcnn(sess, "align")
+pnet, rnet, onet = detect_face.create_mtcnn(sess, "src/align")
 
 # Start recognition button
 start_recognition = st.button("Start Recognition")
@@ -91,7 +84,7 @@ if start_recognition:
         start_time = time.time()
 
         # Detect faces
-        bounding_boxes, _ = align.detect_face.detect_face(frame, MINSIZE, pnet, rnet, onet, THRESHOLD, FACTOR)
+        bounding_boxes, _ = detect_face.detect_face(frame, MINSIZE, pnet, rnet, onet, THRESHOLD, FACTOR)
 
         faces_found = bounding_boxes.shape[0]
         if faces_found > 0:
