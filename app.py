@@ -16,7 +16,6 @@ import collections
 from sklearn.svm import SVC
 import tempfile
 from PIL import Image
-from st_pages import Page, show_pages, add_page_title
 import time
 
 st.set_page_config(page_title="Face Recognition App", layout="wide")
@@ -78,7 +77,7 @@ if start_recognition:
             st.error("Failed to grab frame.")
             break
 
-        frame = imutils.resize(frame, width=1200, height=600)
+        # frame = imutils.resize(frame, width=1200, height=600)
         frame = cv2.flip(frame, 1)
 
         start_time = time.time()
