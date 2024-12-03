@@ -11,3 +11,4 @@ imageio
 imutils
 streamlit-webrtc
 cv
+flask
