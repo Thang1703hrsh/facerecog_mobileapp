@@ -10,3 +10,4 @@ psutil
 imageio
 imutils
 streamlit-webrtc
+cv
